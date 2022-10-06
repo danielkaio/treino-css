@@ -1,0 +1,43 @@
+
+.logo,img{
+    width: 940px;
+    height: 300px;
+    background-color: crimson;
+    margin: 0 auto;
+}
+
+
+@font-face {
+    font-family: local;
+    src: url("../fonts/RubikDistressed-Regular.ttf");
+}
+
+.sobre{
+    width: 940px;
+    text-align: center;
+    margin: 60px auto;
+    line-height: 20px;
+    font-family: local;
+    background-color: wheat;
+    border: 2px black solid;
+    color: black;
+    
+
+}
+
+.local iframe  {
+    width: 100%;
+    height: 300px;
+}
+
+
+footer, .text::after{
+    width: 100%;
+    margin: 60px;
+    height: 200px;
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: local;
+    content: "©";
+    
+}
